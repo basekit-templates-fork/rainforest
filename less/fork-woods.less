@@ -22,6 +22,10 @@ body {
     }
 }
 
+.header-extendednavigation {
+    padding: 0 20px;
+}
+
 .feature:after {
     display: none;
 }
@@ -33,6 +37,10 @@ body {
     @media @tablet {
         max-width: 100%;
     }
+}
+
+.feature__headline {
+    text-transform: uppercase;
 }
 
 .feature__headline, 
@@ -94,9 +102,12 @@ button,
     }
 }
 
+[data-widget-type="feature"] .widget-overlay {
+    top: 0!important;
+}
+
 .navigation-list {
-    width: 90%;
-    margin: 10px 0 10px 0;
+    width: 100%;
     @media @bp-desktop {
         width: 100%;
     }

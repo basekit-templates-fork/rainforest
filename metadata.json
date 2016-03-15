@@ -102,7 +102,7 @@
         },
         "font6": {
             "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
-            "font-size": "15px",
+            "font-size": "16px",
             "font-weight": "700",
             "line-height": "28px",
             "color": "@color-swatch1",
@@ -114,7 +114,7 @@
         "font7": {
             "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
             "font-size": "16px",
-            "font-weight": "400",
+            "font-weight": "700",
             "line-height": "26px",
             "color": "@color-swatch3",
             "letter-spacing": "0px",
@@ -220,7 +220,7 @@
             "color__navigation--text--hover": "@color-swatch1",
             "color__navigation-list--background": "@color-swatch3", 
             "font__navigation--font-family": "@font-swatch6-font-family",
-            "font__navigation--font-size": "15px",
+            "font__navigation--font-size": "16px",
             "font__navigation--font-weight": "@font-swatch6-font-weight",
             "font__navigation--line-height": "@font-swatch6-line-height",
             "font__navigation--letter-spacing": "@font-swatch6-letter-spacing"
