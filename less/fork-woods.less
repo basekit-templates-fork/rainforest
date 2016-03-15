@@ -1,5 +1,9 @@
 // --------------------------------
-// Rainforest: Fork Changes
+// Woods: Fork Changes
+// --------------------------------
+
+
+// Page Styles
 // --------------------------------
 
 body {
@@ -11,6 +15,23 @@ body {
         padding: 0;
     }
 }
+
+.template-header {
+    width: 100%;
+}
+
+.header-wrapper {
+    padding: 4% 0% 0 6%;
+}
+
+.footer-wrapper {
+    padding: 0;
+    padding: 0px 0px 20px;
+}
+
+
+// Navigation
+// --------------------------------
 
 .bk-pt-home .navigation-toggle {
     padding: 22px;
@@ -25,6 +46,51 @@ body {
 .header-extendednavigation {
     padding: 0 20px;
 }
+
+.header-extendednavigation {
+    -webkit-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.10);
+    -moz-box-shadow:    3px 3px 0px rgba(50, 50, 50, 0.10);
+    box-shadow:         3px 3px 0px rgba(50, 50, 50, 0.10);
+    background-color: @color__navigation--background; background-image: -webkit-gradient(linear, left top, left bottom, from(@color__navigation--background), to(#008c00));
+    background-image: -webkit-linear-gradient(top, @color__navigation--background, #008c00);
+    background-image: -moz-linear-gradient(top, @color__navigation--background, #008c00);
+    background-image: -ms-linear-gradient(top, @color__navigation--background, #008c00);
+    background-image: -o-linear-gradient(top, @color__navigation--background, #008c00);
+    background-image: linear-gradient(to bottom, @color__navigation--background, #008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=@color__navigation--background, endColorstr=#008c00);
+    padding: 0 20px;
+    @media @bp-tablet {
+        padding: 0;
+    }
+}
+
+.navigation-list {
+    width: 100%;
+    @media @bp-desktop {
+        width: 100%;
+    }
+}
+
+.open .navigation-toggle:before {
+    box-shadow: none;
+}
+
+.navigation-list--children {
+    background-color: @color__navigation-list--background!important;
+    margin: 0;
+}
+
+.navigation-item .item-name:hover,
+.navigation-item.selected > .item-name {
+    box-shadow: none!important;
+}
+
+.navigation-toggle:before {
+    box-shadow: 0 8px 0 0;
+}
+
+
+// Feature
+// --------------------------------
 
 .feature:after {
     display: none;
@@ -46,27 +112,6 @@ body {
 .feature__headline, 
 .feature__strapline {
     max-width: 100%;
-}
-
-.template-header {
-    width: 100%;
-}
-
-.header-wrapper {
-    padding: 4% 0% 0 6%;
-}
-
-.header-extendednavigation {
-    -webkit-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.10);
-    -moz-box-shadow:    3px 3px 0px rgba(50, 50, 50, 0.10);
-    box-shadow:         3px 3px 0px rgba(50, 50, 50, 0.10);
-    background-color: @color__navigation--background; background-image: -webkit-gradient(linear, left top, left bottom, from(@color__navigation--background), to(#008c00));
-    background-image: -webkit-linear-gradient(top, @color__navigation--background, #008c00);
-    background-image: -moz-linear-gradient(top, @color__navigation--background, #008c00);
-    background-image: -ms-linear-gradient(top, @color__navigation--background, #008c00);
-    background-image: -o-linear-gradient(top, @color__navigation--background, #008c00);
-    background-image: linear-gradient(to bottom, @color__navigation--background, #008c00);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=@color__navigation--background, endColorstr=#008c00);
-
 }
 
 .feature__button,
@@ -106,35 +151,29 @@ button,
     top: 0!important;
 }
 
-.navigation-list {
-    width: 100%;
-    @media @bp-desktop {
-        width: 100%;
-    }
-}
 
-.open .navigation-toggle:before {
-    box-shadow: none;
-}
-
-.navigation-list--children {
-    background-color: @color__navigation-list--background!important;
-    margin: 0;
-}
-
-.navigation-item .item-name:hover,
-.navigation-item.selected > .item-name {
-    box-shadow: none!important;
-}
-
-.navigation-toggle:before {
-    box-shadow: 0 8px 0 0;
-}
+// Widgets
+// --------------------------------
 
 .icon--previous:before,
 .icon--next:after,
 .icon--pause:before {
     color: @color__button--text;
+}
+
+.pagination-item.current .button--pagination {
+    background-color: @color__button--background--hover;
+}
+
+.twitter__retweeted-by {
+    color: white;
+}
+
+.clicktocall__phone-number-link {
+    @media @mobile {
+        padding: 9px 12px;
+        border-bottom: 0;
+    }
 }
 
 button.responsiveslideshow__previous-button:hover, button.responsiveslideshow__next-button:hover, button.pause-toggle:hover {
@@ -144,6 +183,10 @@ button.responsiveslideshow__previous-button:hover, button.responsiveslideshow__n
 button.responsiveslideshow__previous-button, button.responsiveslideshow__next-button, button.pause-toggle {
     background-color: @color__button--background;
 }
+
+
+// Ecommerce
+// --------------------------------
 
 .select {
     border: 1px solid #eeeeee;
@@ -157,7 +200,20 @@ button.responsiveslideshow__previous-button, button.responsiveslideshow__next-bu
     height: 42px;
 }
 
-.footer-wrapper {
-    padding: 0;
-    padding: 0px 0px 20px;
+.ecombasket__item-remove {
+    padding: 10px 10px 10px 7px;
 }
+
+.basket-item,
+.basket-item:last-child {
+    border-top: 5px solid #eeeeee;
+}
+
+
+// Blog
+// --------------------------------
+
+.blogpost .image-link {
+    text-align: left;
+}
+

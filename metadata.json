@@ -1,7 +1,7 @@
 {
-    "name": "Office",
+    "name": "Woods",
     "thumbnail": "thumbnail.png",
-    "screenshot": "office-screenshot.jpg",
+    "screenshot": "woods-screenshot.jpg",
     "widgetVersion":2,
     "pageTypes": ["home"],
     "templateType":"standard",
@@ -241,7 +241,7 @@
             "color__twitter-tweet--text": "@color__body--background"
         },
         "gallery": {
-            "color__gallery-caption--background": "fade(@color-swatch3,50%)",
+            "color__gallery-caption--background": "fade(@color-swatch3,80%)",
             "color__gallery-title--text": "@color-swatch1",
             "color__gallery-description--text": "@color-swatch1"
         },
