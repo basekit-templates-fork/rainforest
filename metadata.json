@@ -65,7 +65,7 @@
             "font-size": "36px",
             "font-weight": "700",
             "line-height": "46px",
-            "color": "@color-swatch3",
+            "color": "@color-swatch4",
             "letter-spacing": "0px"
         },
         "font2": {
@@ -73,7 +73,7 @@
             "font-size": "30px",
             "font-weight": "700",
             "line-height": "40px",
-            "color": "@color-swatch3",
+            "color": "@color-swatch4",
             "letter-spacing": "0px"
         },
         "font3": {
@@ -218,7 +218,7 @@
             "color__navigation--text": "@font-swatch6-color",
             "color__navigation--text--selected": "@color-swatch1",
             "color__navigation--text--hover": "@color-swatch1",
-            "color__navigation-list--background": "@color-swatch3", 
+            "color__navigation-list--background": "@color-swatch4", 
             "font__navigation--font-family": "@font-swatch6-font-family",
             "font__navigation--font-size": "16px",
             "font__navigation--font-weight": "@font-swatch6-font-weight",
