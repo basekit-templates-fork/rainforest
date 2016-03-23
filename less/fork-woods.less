@@ -21,7 +21,11 @@ body {
 }
 
 .header-wrapper {
-    padding: 4% 0% 0 6%;
+    padding: 30px 0% 0 6%;
+
+    @media @bp-desktop {
+        padding-left: 4%;
+    }
 }
 
 .footer-wrapper {
@@ -116,6 +120,7 @@ body {
 
 .feature__content-inner-wrap {
     background-color: @color__feature-content--background;
+    display: inherit;
     padding: 30px;
     max-width: 60%;
     @media @tablet {
@@ -127,7 +132,7 @@ body {
     text-transform: uppercase;
 }
 
-.feature__headline, 
+.feature__headline,
 .feature__strapline {
     max-width: 100%;
 }
@@ -153,6 +158,10 @@ button,
         background-color: @color__button--background--hover;
         background-image: none;
     }
+}
+
+.feature__button {
+    margin-top: 15px;
 }
 
 .feature__background-image {
