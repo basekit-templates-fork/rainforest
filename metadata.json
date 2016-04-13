@@ -125,7 +125,7 @@
             "font-family": "\"Roboto\", Geneva, \"Lucida Console\", sans-serif",
             "font-size": "54px",
             "font-weight": "700",
-            "line-height": "64px",
+            "line-height": "58px",
             "color": "@color-swatch1",
             "letter-spacing": "0px"
         },
@@ -218,7 +218,7 @@
             "color__navigation--text": "@font-swatch6-color",
             "color__navigation--text--selected": "@color-swatch1",
             "color__navigation--text--hover": "@color-swatch1",
-            "color__navigation-list--background": "@color-swatch4", 
+            "color__navigation-list--background": "@color-swatch4",
             "font__navigation--font-family": "@font-swatch6-font-family",
             "font__navigation--font-size": "16px",
             "font__navigation--font-weight": "@font-swatch6-font-weight",
